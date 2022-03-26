@@ -1,0 +1,15 @@
+{
+  "name": "type-challenges-solution",
+  "version": "1.0.0",
+  "description": "参与 type-challenges 进行 TS 学习的笔记📚",
+  "main": "tsconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
