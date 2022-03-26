@@ -6,8 +6,25 @@
 
 ## 1. Progress
 
+## 1.1 wram-up (1/1 done)
+
 - [x] 13-warm-hello-world
 
+## 1.2 easy (8/13 done)
+
+- [x] [4-easy-pick](./questions/4-easy-pick/template.ts)
+- [x] [7-read-only](./questions/7-read-only/template.ts)
+- [x] [11-easy-tuple-to-object](./questions/11-easy-tuple-to-object/template.ts)
+- [x] [14-easy-first](./questions/14-easy-first/template.ts)
+- [x] [18-easy-tuple-length](./questions/18-easy-tuple-length/template.ts)
+- [x] [43-easy-exclude](./questions/43-easy-exclude/template.ts)
+- [x] [189-easy-awaited](./questions/189-easy-awaited/template.ts)
+- [x] [268-easy-if](./questions/268-easy-if/template.ts)
+- [ ] [533]
+- [ ] [898]
+- [ ] [3057]
+- [ ] [3060]
+- [ ] [3312]
 
 ## 2. Some note
 
@@ -33,8 +50,8 @@
   "compilerOptions": {
 
     /* 基本选项 */
-    "target": "es5",                       // 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES6'/'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'
-    "module": "commonjs",                  // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'
+    "target": "es5",                       // 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES6'/'ES2015','ES2016', 'ES2017', or 'ESNEXT'
+    "module": "commonjs",                  // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015', 'esnext'
     "lib": [],                             // 指定要包含在编译中的库文件
     "allowJs": true,                       // 允许编译 javascript 文件
     "checkJs": true,                       // 报告 javascript 文件中的错误
@@ -79,7 +96,9 @@
 
     /* 其他选项 */
     "experimentalDecorators": true,        // 启用装饰器
-    "emitDecoratorMetadata": true          // 为装饰器提供元数据的支持
+    "emitDecoratorMetadata": true,         // 为装饰器提供元数据的支持
+    "esModuleInterop": true,               // 支持使用 import d from 'cjs' 的方式引入 commonjs 包
+    "skipLibCheck": false,                 // 跳过所有 .d.ts 文件的类型检查
   }
 }
 ```
