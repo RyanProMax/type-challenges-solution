@@ -26,7 +26,7 @@
 - [ ] [3060]
 - [ ] [3312]
 
-## 2. Some note
+## 2. Note
 
 ### 2.1 tsconfig.json
 
@@ -102,3 +102,13 @@
   }
 }
 ```
+
+## 2.2 遍历对象、数组
+
+- 遍历对象键: `P in keyof T`
+- 遍历数组索引: `P in keyof T`
+- 遍历数组值: `P in T[number]`
+
+## 2.3 extends
+
+- 联合类型间使用 `extends` 会遍历对比
