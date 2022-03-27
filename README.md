@@ -3,14 +3,16 @@
 搭配 type-challenges 食用的 TS 学习笔记📚
 
 > type-challenges: https://github.com/type-challenges/type-challenges
+>
+> Github 大佬的解析: https://github.com/ghaiklor/type-challenges-solutions/tree/main/zh
 
 ## 1. Progress
 
-## 1.1 wram-up (1/1 done)
+### 1.1 wram-up (1/1 done)
 
 - [x] 13-warm-hello-world
 
-## 1.2 easy (8/13 done)
+### 1.2 easy (13/13 done)
 
 - [x] [4-easy-pick](./questions/4-easy-pick/template.ts)
 - [x] [7-read-only](./questions/7-read-only/template.ts)
@@ -20,11 +22,15 @@
 - [x] [43-easy-exclude](./questions/43-easy-exclude/template.ts)
 - [x] [189-easy-awaited](./questions/189-easy-awaited/template.ts)
 - [x] [268-easy-if](./questions/268-easy-if/template.ts)
-- [ ] [533]
-- [ ] [898]
-- [ ] [3057]
-- [ ] [3060]
-- [ ] [3312]
+- [x] [533-easy-concat](./questions/533-easy-concat/template.ts)
+- [x] [898-easy-includes](./questions/898-easy-includes/template.ts)
+- [x] [3057-easy-push](./questions/3057-easy-push/template.ts)
+- [x] [3060-easy-unshift](./questions/3060-easy-unshift/template.ts)
+- [x] [3312-easy-parameters](./questions/3312-easy-parameters/template.ts)
+
+### 1.3 medium (0/67 done)
+
+- [ ] [2](./questions/6-hard-simple-vue/template.ts)
 
 ## 2. Note
 
@@ -105,10 +111,26 @@
 
 ## 2.2 遍历对象、数组
 
-- 遍历对象键: `P in keyof T`
-- 遍历数组索引: `P in keyof T`
-- 遍历数组值: `P in T[number]`
+- 遍历对象键（T 为对象）: `P in keyof T`
+- 遍历数组索引（T 为数组）: `P in keyof T`
+- 遍历数组值（T 为数组）: `P in T[number]`
 
 ## 2.3 extends
 
-- 联合类型间使用 `extends` 会遍历对比
+> [TypeScript extends 精读与实践](https://github.com/MuYunyun/blog/issues/140)
+
+上文详细叙述了 `extends` 在不同应用场景中的使用，值得一看。
+
+## 2.4 keyof any
+
+string | number | symbol
+
+## 2.5 Equal<X, Y>
+
+[How does the `Equals` work in typescript?](https://stackoverflow.com/questions/68961864/how-does-the-equals-work-in-typescript/68963796#68963796)
+
+```ts
+type Equal<X, Y> =
+  (<T>() => T extends X ? 1 : 2) extends
+  (<T>() => T extends Y ? 1 : 2) ? true : false
+```

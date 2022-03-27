@@ -1,1 +1,1 @@
-type Push<T, U> = any
+type Push<T extends any[], U> = Includes<T, U> extends true ? T : [...T, U];
