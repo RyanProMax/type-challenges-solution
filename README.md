@@ -32,6 +32,8 @@
 
 - [x] [2-medium-return-type](./questions/2-medium-return-type/template.ts)
 - [x] [3-medium-omit](./questions/3-medium-omit/template.ts)
+- [x] [8-medium-readonly-2](./questions/8-medium-readonly-2/template.ts)
+- [x] [9-medium-deep-readonly](./questions/9-medium-deep-readonly/template.ts)
 
 ## 2. Note
 
