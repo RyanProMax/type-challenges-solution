@@ -39,6 +39,7 @@
 - [x] [15-medium-last](./questions/15-medium-last/template.ts)
 - [x] [16-medium-pop](./questions/16-medium-pop/template.ts)
 - [x] [20-medium-promise-all](./questions/20-medium-promise-all/template.ts)
+- [x] [62-medium-type-lookup](./questions/62-medium-type-lookup/template.ts)
 
 ## 2. Note
 
