@@ -28,7 +28,7 @@
 - [x] [3060-easy-unshift](./questions/3060-easy-unshift/template.ts)
 - [x] [3312-easy-parameters](./questions/3312-easy-parameters/template.ts)
 
-### 1.3 medium (14/67 done)
+### 1.3 medium (15/67 done)
 
 - [x] [2-medium-return-type](./questions/2-medium-return-type/template.ts)
 - [x] [3-medium-omit](./questions/3-medium-omit/template.ts)
@@ -44,6 +44,7 @@
 - [x] [108-medium-trim](./questions/108-medium-trim/template.ts)
 - [x] [110-medium-capitalize](./questions/110-medium-capitalize/template.ts)
 - [x] [116-medium-replace](./questions/116-medium-replace/template.ts)
+- [x] [119-medium-replaceall](./questions/119-medium-replaceall/template.ts)
 
 ## 2. Note
 
