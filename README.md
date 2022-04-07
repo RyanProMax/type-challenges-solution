@@ -28,7 +28,7 @@
 - [x] [3060-easy-unshift](./questions/3060-easy-unshift/template.ts)
 - [x] [3312-easy-parameters](./questions/3312-easy-parameters/template.ts)
 
-### 1.3 medium (16/67 done)
+### 1.3 medium (17/67 done)
 
 - [x] [2-medium-return-type](./questions/2-medium-return-type/template.ts)
 - [x] [3-medium-omit](./questions/3-medium-omit/template.ts)
@@ -46,7 +46,7 @@
 - [x] [116-medium-replace](./questions/116-medium-replace/template.ts)
 - [x] [119-medium-replaceall](./questions/119-medium-replaceall/template.ts)
 - [x] [191-medium-append-argument](./questions/191-medium-append-argument/template.ts)
-- [ ] [296]()
+- [x] [296-medium-permutation](./questions/296-medium-permutation/template.ts): i think it's difficult
 - [ ] [298]()
 - [ ] [459]()
 - [ ] [527]()
