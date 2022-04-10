@@ -201,10 +201,10 @@ type Equal<X, Y> =
   (<T>() => T extends Y ? 1 : 2) ? true : false
 ```
 
-### 2.6 infer
+## 2.6 infer
 
 > [理解TypeScript中的infer关键字](https://juejin.cn/post/6844904170353328135)
 
-### 2.7 as
+## 2.7 as
 
 [使用 “as” 语法重新映射键类型](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-1.html#key-remapping-in-mapped-types)，可用于过滤指定键。
