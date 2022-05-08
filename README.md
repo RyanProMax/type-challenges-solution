@@ -28,7 +28,7 @@
 - [x] [3060-easy-unshift](./questions/3060-easy-unshift/template.ts)
 - [x] [3312-easy-parameters](./questions/3312-easy-parameters/template.ts)
 
-### 1.3 medium (41/67 done)
+### 1.3 medium (42/67 done)
 
 - [x] [2-medium-return-type](./questions/2-medium-return-type/template.ts)
 - [x] [3-medium-omit](./questions/3-medium-omit/template.ts)
@@ -71,7 +71,7 @@
 - [x] [2759-medium-requiredbykeys](./questions/2759-medium-requiredbykeys/template.ts)
 - [x] [2793-medium-mutable](./questions/2793-medium-mutable/template.ts)
 - [x] [2852-medium-omitbytype](./questions/2852-medium-omitbytype/template.ts)
-- [ ] [2946]()
+- [x] [2946-medium-objectentries](./questions/2946-medium-objectentries/template.ts)
 - [ ] [3062]()
 - [ ] [3188]()
 - [ ] [3192]()
