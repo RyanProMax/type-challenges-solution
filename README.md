@@ -77,7 +77,7 @@
 - [x] [3192-medium-reverse](./questions/3192-medium-reverse/template.ts)
 - [x] [3196-medium-flip-arguments](./questions/3196-medium-flip-arguments/template.ts)
 - [x] [3243-medium-flattendepth](./questions/3243-medium-flattendepth/template.ts)
-- [ ] [3326]()
+- [x] [3326-medium-bem-style-string](./questions/3326-medium-bem-style-string/template.ts)
 - [ ] [3376]()
 - [ ] [4179]()
 - [ ] [4182]()
