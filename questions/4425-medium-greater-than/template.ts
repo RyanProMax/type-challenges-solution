@@ -1,1 +1,11 @@
-type GreaterThan<T extends number, U extends number> = any
+type NumToArray<T extends number, R extends any[] = []> = T extends R['length']
+  ? R
+  : NumToArray<T, [...R, any]>
+
+type GreaterThan<T extends number, U extends number> = T extends U
+  ? false
+  : NumToArray<T> extends [...NumToArray<U> extends [...infer R] ? R : never, ...any]
+  ? true
+  : false
+
+type result4425 = GreaterThan<10, 0>;
